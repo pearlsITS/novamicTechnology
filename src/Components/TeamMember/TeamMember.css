@@ -1,0 +1,99 @@
+/** @format */
+
+.member {
+  font-family: var(--font-family);
+  margin-bottom: 70px;
+}
+
+.member .member_title {
+  text-align: center;
+}
+.member .member_title h1 {
+  font-size: 35px;
+  display: inline-block;
+  position: relative;
+}
+.member .member_title h1::before {
+  content: '';
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  width: 50%;
+  height: 4px;
+  background-color: var(--text-color);
+  border-radius: 12px;
+}
+.member .memberinfo {
+  background-color: #f2f2f2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 40px;
+  border-radius: 10px;
+}
+.member .memberinfo .profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 8px solid var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member .memberinfo .profile .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.member .memberinfo .profile .circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member .memberinfo .info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.member .memberinfo .info p {
+  color: var(--text-color);
+  font-size: 18px;
+  /* font-weight: 600; */
+}
+
+.member .memberinfo .info .social-link {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.member .memberinfo .info .social-link .social {
+  width: 30px;
+  height: 30px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.member .memberinfo .info .social-link .social:hover {
+  transform: scale(1.2);
+}
+
+.member .alice-carousel .alice-carousel__dots {
+  margin: 0;
+}
+
+.member .alice-carousel .alice-carousel__dots-item.__active {
+  background-color: var(--text-color);
+}

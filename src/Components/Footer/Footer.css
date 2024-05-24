@@ -1,0 +1,175 @@
+/** @format */
+
+.footer-section {
+  background-color: #f4f7fa;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: var(--font-family);
+}
+
+/* === compnay info ===+ */
+
+.footer-section .company-info .image img {
+  width: 150px;
+}
+
+/* ==== Contact us ==  */
+
+.footer-section .contact-info {
+  margin: 15px;
+}
+.footer-section .contact-info .title p {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-section .contact-info .title p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50%;
+  height: 3px;
+  background-color: red;
+}
+.footer-section .contact-info .location {
+  margin-bottom: 10px;
+}
+.footer-section .contact-info .location svg {
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
+}
+.footer-section .contact-info .mail {
+  margin-bottom: 10px;
+}
+
+.footer-section .contact-info .mail span {
+  word-wrap: break-word;
+}
+.footer-section .contact-info .mail svg {
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
+}
+.footer-section .contact-info .phone-number svg {
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
+}
+
+/* ===== links ==== */
+
+.footer-section .links {
+  margin: 15px;
+}
+.footer-section .links .title p {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-section .links .title p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50%;
+  height: 3px;
+  background-color: red;
+}
+.footer-section .links .menu-link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+/* ==== newsletter === */
+.footer-section .newletter {
+  margin: 15px;
+}
+.footer-section .newletter .title p {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-section .newletter .title p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50%;
+  height: 3px;
+  background-color: red;
+}
+.footer-section .newletter .social-link {
+  display: flex;
+}
+.footer-section .newletter .social-link .social {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.footer-section .newletter .social-link .social:hover {
+  transform: scale(1.2);
+}
+.footer-section .newletter .follow p {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+.footer-section .newletter .follow p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50%;
+  height: 3px;
+  background-color: red;
+}
+.footer-section .newletter .sub-form {
+  display: flex;
+}
+.footer-section .newletter .subscribe .sub-form button {
+  background-color: red;
+  color: var(--white);
+  padding: 4px 8px;
+}
+.footer-section .newletter .subscribe .sub-form button:focus {
+  box-shadow: none;
+}
+.footer-section .newletter .subscribe .sub-form button svg {
+  font-size: 22px;
+}
+.footer-section .newletter .subscribe .sub-form input {
+  border: none;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+.footer-section .newletter .subscribe .sub-form input:focus {
+  box-shadow: none;
+  border-color: var(--text-color);
+  outline: var(--text-color);
+}
+
+/* === copy right */
+.copyright {
+  background-color: #f4f7fa;
+  padding: 20px 0;
+  text-align: center;
+}
+.copyright p {
+  margin: 0;
+  font-size: 18px;
+}
